@@ -1,0 +1,59 @@
+body {
+    background-color: #eeeeee;
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#header {
+    text-align: center;
+    text-decoration: Underline;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    
+}
+
+.colors h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.colors p {
+    font-size: 25px;
+}
+
+.colors ul {
+    font-size: 30px;
+    list-style-type: none;
+    
+}
+
+#red{
+background-color: #ff0000;
+}
+
+#blue{
+    background-color: #000fff;  
+}
+
+#green{
+    background-color: #008000;    
+}
+
+a {
+    color: #0000ff;
+    cursor: pointer;
+}
+
+a:hover{
+    color: #ff0000;
+}
+
+.color-link:visited {
+    color: #800;
+}
+
+.color-link:active {
+    color: #008000;
+}
+
