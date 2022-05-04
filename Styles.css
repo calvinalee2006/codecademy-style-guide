@@ -2,7 +2,7 @@ body {
     background-color: #eeeeee;
     width: 90%;
     margin: auto;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 #header {
@@ -30,14 +30,17 @@ body {
 
 #red{
 background-color: #ff0000;
+color: #ffff;
 }
 
 #blue{
     background-color: #000fff;  
+    color: #ffff;
 }
 
 #green{
-    background-color: #008000;    
+    background-color: #008000;  
+    color: #ffff;  
 }
 
 a {
@@ -50,10 +53,44 @@ a:hover{
 }
 
 .color-link:visited {
-    color: #800;
+    color: #0000ff;
 }
 
 .color-link:active {
     color: #008000;
 }
 
+.typography h2{
+    text-align: center;
+    font-size: 40px; 
+}
+
+.typography p {
+    font-size: 25px; 
+}
+
+.typography ul {
+    font-size: 25px;
+    list-style-type: none;
+}
+
+.typography li {
+    display: inline-block;
+    padding: 10px;
+    font-size: 30px;
+}
+#roman {
+    font-family:'Times New Roman', Times, serif ;
+}
+
+#water {
+    font-family: 'Water Brush', cursive;
+}
+
+#verdana{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+#ole{
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
